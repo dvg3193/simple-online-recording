@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Online запись</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <main>
+
+        <div class="page-content">
+        	<div class="page-online-signup">
+        		<div class="container">
+			    	<div class="steps">
+				    	<div class="step-1">
+				    		<p>1. Выберите свободный день месяца</p>
+				    		<div class="months">
+						    	<a href="" class="btn-prev"><i class="fas fa-angle-left"></i></a>
+						    	<a href="" class="btn-next"><i class="fas fa-angle-right"></i></a>
+					    	</div>
+				    	</div>
+				    	<div class="step-2">
+				    		<p>2. Выберите свободное время</p>
+				    		<div class="times" id="times">
+				    			<div data-time="09:00-10:00" data-times="0">09:00-10:00</div>
+				    			<div data-time="10:00-11:00" data-times="0">10:00-11:00</div>
+				    			<div data-time="11:00-12:00" data-times="0">11:00-12:00</div>
+				    			<div data-time="12:00-13:00" data-times="0">12:00-13:00</div>
+				    			<div data-time="13:00-14:00" data-times="0">13:00-14:00</div>
+				    			<div data-time="14:00-15:00" data-times="0">14:00-15:00</div>
+				    			<div data-time="15:00-16:00" data-times="0">15:00-16:00</div>
+				    			<div data-time="16:00-17:00" data-times="0">16:00-17:00</div>
+				    			<div data-time="17:00-18:00" data-times="0">17:00-18:00</div>
+				    			<div data-time="18:00-19:00" data-times="0">18:00-19:00</div>
+				    			<div data-time="19:00-20:00" data-times="0">19:00-20:00</div>
+				    		</div>
+				    	</div>
+				    	<div class="step-3-4">
+				    		<form class="schedule">
+				    			<div class="step-3">
+				    				<p>3. Выберите области массажа</p>
+				    				<div class="massage-type">
+							    		<select name="massage" class="massage-type">
+							    			<option value="" selected disabled>Области массажа</option>
+							    			<option value="Все тело">Все тело</option>
+							    			<option value="Живот, бока, спина, бедра">Живот, бока, спина, бедра</option>
+							    			<option value="Живот, бока, ягодицы, бедра">Живот, бока, ягодицы, бедра</option>
+							    			<option value="Живот, бока, спина, руки">Живот, бока, спина, руки</option>
+							    			<option value="Живот, бока, спина">Живот, бока, спина</option>
+							    			<option value="Ягодицы, бедра">Ягодицы, бедра</option>
+							    		</select>
+							    	</div>
+				    			</div>
+				    			<div class="step-4">
+				    			<p>4. Информация для связи с Вами</p>
+				    				<div class="contact-info">
+						    			<div class="user-input">
+						    				<label>Ваше имя:</label>
+						    				<input type="text" name="name" required>
+						    			</div>
+						      			<div class="user-input">
+						      				<label>Ваш телефон:</label>
+						    				<input type="text" name="phone" required>
+						    			</div>
+						    			<input type="hidden" value"" name = "date" class="hidden-date">
+						    			<input type="hidden" value"" name = "time" class="hidden-time">
+						    			<input type="hidden" value"" name = "times" class="hidden-times">
+						    			<button type="submit">Записаться</button>
+					    			</div>
+					    		</div>
+				    		</form>
+				    	</div>
+				    	<div class="notice">
+				    		Ждем Вас <span class="notice-date"></span> в <span class="notice-time"></span>
+				    		<div class="progress"></div>
+				    	</div>    		
+					</div>
+				</div>
+			</div>
+        </div>
+        
+    </main>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>
